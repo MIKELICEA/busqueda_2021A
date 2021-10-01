@@ -46,7 +46,7 @@ int renglon1(int arrBi[M][N])
 
     }
 
-    printf("Numero menor del renglón %d: %d \n", renglon + 1, menor );
+    printf("Numero menor del renglón %d es %d y esta en la posición [%d][%d]\n", renglon + 1, menor, i, j );
     menor = 10000; //Reset de valor del menor
 }
 
